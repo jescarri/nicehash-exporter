@@ -1,4 +1,4 @@
-Prometheus Nicehash Exporters
+Prometheus Nicehash Exporter
 =============================
 
 You can now use prometheus to monitor your nicehash mining operations!
