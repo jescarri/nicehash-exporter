@@ -6,7 +6,7 @@ You can now use prometheus to monitor your nicehash mining operations!
 
 Usage
 =====
-
+````
 export NICEHASH_ADDR=NICE_HASH_ADDRESS
 export NICEHASH_ALGO_LIST=[COMMA SEPARATED LIST OF NH ALGO NAMES] EX Keccak,Lyra2REv2,equihash,nist5
 export NICEHASH_API_ID=API_ID
@@ -17,6 +17,11 @@ export NICEHASH_REFRESH_SECONDS=60
 
 
 go run main.go
+
+````
+
+Output
+======
 
 ````
 curl -s localhost:8080/metrics | grep nice
