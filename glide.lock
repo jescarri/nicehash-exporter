@@ -1,0 +1,24 @@
+hash: c875650551c0b4be01f5e7e90e408e7b357f7f176037c3969a05a7fa9bd11eb9
+updated: 2018-02-03T18:43:43.478524263-08:00
+imports:
+- name: github.com/bitbandi/go-nicehash-api
+  version: c65ec73a22b625e4e7907020014bf2c7793e6170
+- name: github.com/davecgh/go-spew
+  version: 346938d642f2ec3594ed81d874461961cd0faa76
+  subpackages:
+  - spew
+- name: github.com/dghubble/sling
+  version: 80ec33c6152a53edb5545864ca37567b506c4ca5
+- name: github.com/google/go-querystring
+  version: 53e6ce116135b80d037921a7fdd5138cf32d7a8a
+  subpackages:
+  - query
+- name: github.com/gostudent/coindesk
+  version: 2f4a2c19ec9fa2a99fbf0ce8c8e7881164bdbd33
+- name: github.com/prometheus/client_golang
+  version: 967789050ba94deca04a5e84cce8ad472ce313c1
+- name: github.com/tidwall/gjson
+  version: 87033efcaec6215741137e8ca61952c53ef2685d
+- name: github.com/tidwall/match
+  version: 1731857f09b1f38450e2c12409748407822dc6be
+testImports: []
