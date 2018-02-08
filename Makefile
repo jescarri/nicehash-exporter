@@ -25,6 +25,7 @@ ARCH?=amd64
 TEMP_DIR:=$(shell mktemp -d)
 
 server: main.go
+	glide install -v
 	CGO_ENABLED=0 GOOS=linux GOARCH=$(ARCH) GOARM=6 go build -a -installsuffix cgo -ldflags '-w' -o server ./main.go
 
 container: server
