@@ -4,7 +4,6 @@ group: deprecated-2017Q4
 services:
   - docker
 language: go
-go_import_path: github.com/jescarri/nicehash-exporter
 go:
  - 1.8
 
