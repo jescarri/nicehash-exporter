@@ -2,7 +2,6 @@ sudo: required
 services:
   - docker
 language: go
-go_import_path: github.com/jtblin/kube2iam
 go:
  - 1.8
 
@@ -11,10 +10,9 @@ before_install:
   - glide install -v
 
 script:
- - make setup
- - make docker
+ - make
 after_success:
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
       docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
-      make ;
+      make push;
     fi
