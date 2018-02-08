@@ -1,10 +1,9 @@
-package: gitlab.identitylabs.mx/jescarri/nicehash-exporter
+package: github.com/jescarri/nicehash-exporter
 import:
 - package: github.com/bitbandi/go-nicehash-api
-- package: github.com/davecgh/go-spew
-  version: ^1.1.0
-  subpackages:
-  - spew
 - package: github.com/gostudent/coindesk
 - package: github.com/prometheus/client_golang
   version: ^0.9.0-pre1
+  subpackages:
+  - prometheus
+  - prometheus/promhttp

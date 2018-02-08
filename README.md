@@ -3,6 +3,7 @@ Prometheus Nicehash Exporter
 
 You can now use prometheus to monitor your nicehash mining operations!
 
+[![Build Status](https://travis-ci.org/jescarri/nicehash-exporter.svg?branch=master)](https://travis-ci.org/jescarri/nicehash-exporter)
 
 Usage
 =====
